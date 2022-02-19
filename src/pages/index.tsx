@@ -1,16 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import Title from '@/components/Title';
+import Helmet from "../components/atoms/Helmet";
+import Body1 from "../components/top/Body1";
 
-export default function Home() {
+const Index: React.VFC = () => {
   return (
-    <main>
-      <Title>Hello TypeScript!</Title>
-      <p>A TypeScript starter for Gatsby. Great for advanced users.</p>
-      <p>
-        Follow me on Twitter (
-        <a href="https://twitter.com/jpedroschmitz">@jpedroschmitz</a>)
-      </p>
-    </main>
+    <div>
+      <Helmet />
+      <Body1 />
+    </div>
   );
-}
+};
+
+export default Index;
