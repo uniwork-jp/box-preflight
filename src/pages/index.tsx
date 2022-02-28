@@ -1,13 +1,18 @@
 import React from "react";
 
 import Helmet from "../components/atoms/Helmet";
-import Body1 from "../components/top/Body1";
+import App from "../components/top";
 
 const Index: React.VFC = () => {
+  const meta = {
+    title: "box press release",
+    description: "",
+    url: "https://box-press-release.netlify.app",
+  };
   return (
     <div>
-      <Helmet />
-      <Body1 />
+      <Helmet {...meta} />
+      <App />
     </div>
   );
 };

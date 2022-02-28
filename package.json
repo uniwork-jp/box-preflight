@@ -1,5 +1,5 @@
 {
-  "name": "some-work",
+  "name": "box-preflight",
   "private": true,
   "description": "",
   "version": "0.1.0",
@@ -19,7 +19,7 @@
     "@mui/material": "^5.2.8",
     "@react-spring/web": "^9.4.1",
     "ansi-html": "^0.0.7",
-    "gatsby": "^4.4.0",
+    "gatsby": "^4.8.1",
     "gatsby-plugin-canonical-urls": "^4.4.0",
     "gatsby-plugin-image": "^2.7.0",
     "gatsby-plugin-react-helmet": "^5.4.0",
@@ -34,6 +34,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "react-player": "^2.9.0",
     "react-redux": "^7.2.6"
   },
   "devDependencies": {

@@ -1,7 +1,9 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import Box from "@mui/material/Box";
 import Conteiner from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+// import img from '../../'
 
 const styles = {
   container: { mt: 3, mb: 10, maxWidth: "sm" },
@@ -13,6 +15,7 @@ const styles = {
 const Index: React.VFC = () => {
   return (
     <Conteiner sx={styles.container}>
+      <StaticImage src="../../images/img1.jpg" alt="A dinosaur" />
       <Box sx={styles.titleBox}>
         <Typography sx={styles.title}>家具のように美しい</Typography>
         <Typography sx={styles.title}>ミニマリストのための</Typography>

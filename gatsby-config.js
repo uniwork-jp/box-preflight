@@ -16,13 +16,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Uniwork.presents"
+    title: "box press release",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp"
-  ]
+    "gatsby-transformer-sharp",
+  ],
 };
