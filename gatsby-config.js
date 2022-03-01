@@ -19,6 +19,15 @@ module.exports = {
     title: "box press release",
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-gtag",
+      options: {
+        trackingIds: ["G-DPY97X1NVL"],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",

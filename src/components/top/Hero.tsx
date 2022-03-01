@@ -1,18 +1,15 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import Box from "@mui/material/Box";
-import ReactPlayer from "react-player/lazy";
 
-const styles = {
-  box: { p: 2, height: "64%" },
-};
+// const styles = {
+//   box: { p: 2, height: "64%" },
+// };
 
 const Index: React.VFC = () => {
   return (
-    <Box sx={styles.box}>
-      <ReactPlayer
-        width="100%"
-        url="https://www.youtube.com/watch?v=Dgh0pZBGhq4"
-      />
+    <Box>
+      <StaticImage src="../../images/img1.jpg" alt="A dinosaur" />
     </Box>
   );
 };
