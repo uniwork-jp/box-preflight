@@ -1,6 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
 
 import Hero from "./Hero";
 import SubTitle1 from "./SubTitle1";
@@ -21,12 +21,13 @@ import PreRegister from "./PreRegister";
 const styles = {
   container: {
     maxWidth: 630,
+    m: "0 auto",
   },
 };
 
 const Index: React.VFC = () => {
   return (
-    <Container sx={styles.container}>
+    <Box sx={styles.container}>
       <Hero />
       <Movie />
       <SubTitle1 />
@@ -41,7 +42,7 @@ const Index: React.VFC = () => {
       <Img5 />
       <SubTitle5 />
       <PreRegister />
-    </Container>
+    </Box>
   );
 };
 
