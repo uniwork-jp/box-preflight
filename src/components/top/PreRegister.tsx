@@ -15,9 +15,11 @@ const styles = {
   text: {
     color: "text.body",
     fontSize: "1.2rem",
+    textAlign: "center",
   },
   textBox: {
     my: 6,
+    mt: 12,
   },
   buttonBox: {
     display: "flex",
@@ -27,6 +29,9 @@ const styles = {
   subText: {
     typography: "subText",
     mt: 4,
+  },
+  subText2: {
+    typography: "subText",
   },
   button: {
     display: "flex",
@@ -67,7 +72,10 @@ const PreRegister: React.VFC = () => {
       <Typography sx={styles.subText}>
         ※基本的には制作期間はクラウドファウンディング場で
         告示された配送時期に配送するものとなり、
-        告示期間を大幅に早回る形で発送されるわけでは ございません。{" "}
+        告示期間を大幅に早回る形で発送されるわけでは ございません。
+      </Typography>
+      <Typography sx={styles.subText2}>
+        ※材料は自然素材である木材のため、所々節が入ることがございます。
       </Typography>
       <Box sx={styles.buttonBox}>
         <Box onClick={() => setDialogOn(true)} sx={styles.button}>
@@ -76,7 +84,7 @@ const PreRegister: React.VFC = () => {
       </Box>
       <Contact
         url="https://us-west2-romantic-strength-finder.cloudfunctions.net/F01-ContactHandler"
-        consulAddless="some@gmail.com"
+        consulAddless="boxpresscloud@gmail.com"
         dialogOn={dialogOn}
         setDialogOn={setDialogOn}
       />

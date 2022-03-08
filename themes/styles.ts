@@ -1,5 +1,5 @@
 export const subTitle = {
-  typography: "h5",
+  typography: "h4",
   textAlign: "center",
 };
 

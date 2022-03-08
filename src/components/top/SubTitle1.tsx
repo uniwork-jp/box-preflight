@@ -5,7 +5,7 @@ import { subTitle, subTitleBox } from "../../../themes/styles";
 
 const styles = {
   title: {
-    typography: "h5",
+    typography: "h4",
     textAlign: "center",
   },
   titleBox: {

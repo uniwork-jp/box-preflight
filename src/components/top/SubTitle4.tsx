@@ -8,6 +8,7 @@ const SubTitle: React.VFC = () => {
     <Box sx={subTitleBox}>
       <Typography sx={subTitle}>デザインおよび発案者は</Typography>
       <Typography sx={subTitle}>数々の受賞歴を持つ</Typography>
+      <Typography sx={subTitle}>ミニマリスト建築家・堤庸策氏。</Typography>
     </Box>
   );
 };

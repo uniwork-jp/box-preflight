@@ -17,7 +17,10 @@ const BodyText: React.VFC = () => {
         これまでの人生で溜め込んできたあれこれを見直し、スッキリと暮らしたい。
       </Typography>
       <Typography sx={{ ...bodyText, ...styles.br }}>
-        それは決して、ただ「ものを減らす」というだけでなく「ものを大事にする」というマインド。
+        それは決して、ただ「ものを減らす」というだけでなく「ものを大事にする」
+      </Typography>
+      <Typography sx={{ ...bodyText, ...styles.br }}>
+        というマインド。
       </Typography>
       <Typography sx={bodyText}>
         かつて人々が、桐のタンスに着物や貴重品などをしまって保管していたように。

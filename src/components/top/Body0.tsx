@@ -12,7 +12,7 @@ const styles = {
 
 const Index: React.VFC = () => {
   return (
-    <Conteiner sx={styles.container}>
+    <Box sx={styles.container}>
       <Box sx={styles.titleBox}>
         <Typography sx={styles.title}>家具のように美しい</Typography>
         <Typography sx={styles.title}>ミニマリストのための</Typography>
@@ -38,7 +38,7 @@ const Index: React.VFC = () => {
           新しい収納のかたち。それが「box」です。
         </Typography>
       </Box>
-    </Conteiner>
+    </Box>
   );
 };
 
